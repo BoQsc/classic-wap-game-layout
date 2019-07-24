@@ -1,3 +1,3 @@
 # classic-wap-game-layout
 
-![asd]("../../Screenshot from 2019-07-24 23-03-07.png")
+![](../../Screenshot_from_2019-07-24_23-03-07.png)
