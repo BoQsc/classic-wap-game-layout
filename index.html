@@ -1,0 +1,42 @@
+
+<style>
+	*:empty:before { content:'\200B';}
+	header { 
+		display: block;
+		grid-area: header; 
+		background: blue;
+		
+	}
+	main { 
+		grid-area: main; 
+		background: brown;
+	}
+	footer { 
+		grid-area: footer;
+		background: green;
+	}
+
+	body {
+		display: grid;
+		grid-auto-flow: column;
+
+	}
+
+
+	section {
+		display: grid;
+		grid-template-areas:
+			"header header header"
+			"nav main side"
+			"footer footer footer";
+		}
+</style>
+
+
+<aside></aside>
+<section>
+	<header>Header</header>
+	<main>Main</main>
+	<footer>Footer</footer>
+</section>
+<aside></aside>
