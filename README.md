@@ -1,3 +1,3 @@
 # classic-wap-game-layout
 
-![](../)
+![](../../)
