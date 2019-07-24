@@ -11,7 +11,7 @@ First, the layout uses Two CSS Grids.
 #### Empty HTML elements having no height will contain pseudo-element `before` containing \200B` (zero length space)
 * **Solved:** The Invisible `Grid Item` without Text would be shown with `height` too low to see the `Grid Item`
 There was a problem that if the `Grid Item` beloning to `Grid Container` was completely empty - not containing any text, its `height` would become too low to see it.
-* **Solution:** Every HTML element that is empty will have pseudo-element `before` that will contain `\200B` (zero length space)
+* **Solution:** Every HTML element that is empty will have pseudo-element `before` that will contain `\200B` (zero length space) which won't be seen nor interactive by HTML processors.
   ```
   <style>
   *:empty:before { 
